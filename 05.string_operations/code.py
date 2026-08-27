@@ -132,3 +132,59 @@ print(a*10)
 a="*"
 print("Output for task 17:.................................................")
 print(a*10)
+
+#Part 9 — Case Conversion
+#Task 18
+a="python programming language"
+print("Output for task 18:.................................................")
+print(a.upper())
+print(a.lower())
+print(a.capitalize())
+print(a.title())
+print(a.swapcase())
+
+#Task 19 — Case-Insensitive Comparison
+a="Python"
+b="python"
+print("Output for task 19:.................................................")
+print(a==b)
+print(a.lower()==b.lower())
+
+#Part 10 — Searching
+#Task 20 — Membership
+a="Python is a programming language"
+print("Output for task 20:.................................................")
+print("Python" in a)
+print("programming" in a)
+print("Java" in a)
+print("language" in a)
+
+#Task 21 — find()
+a="Python is a programming language"
+print("Output for task 21:.................................................")
+print(a.find("Python"))
+print(a.find("programming"))
+print(a.find("language"))
+print(a.find("Java"))
+
+#Task 22 — index()
+a="Python is a programming language"
+print("Output for task 22:.................................................")
+print(a.index("Python"))
+print(a.index("programming"))
+print(a.index("language"))
+print(""" when using this a.index("Java") python show ValueError: substring not found """)
+
+#Task 23 — Count Characters
+a="banana"
+print("Output for task 23:.................................................")
+print(a.count("a"))
+print(a.count("n"))
+print(a.count("b"))
+
+#Task 24 — Starts and Ends
+filename = "student_notes.pdf"
+print("Output for task 24:.................................................")
+print(filename.startswith("student"))
+print(filename.endswith(".pdf"))
+print(filename.endswith(".txt"))
