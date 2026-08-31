@@ -188,3 +188,125 @@ print("Output for task 24:.................................................")
 print(filename.startswith("student"))
 print(filename.endswith(".pdf"))
 print(filename.endswith(".txt"))
+
+#Part 11 — Replacing
+#Task 25 — Replace a Word
+text = "I am learning Java"
+text1=text.replace("Java","Python")
+print("Output for task 25:.................................................")
+print(text1)
+
+#Task 26 — Multiple Replacements
+text = "apple apple apple"
+text1=text.replace("apple","mango")
+print("Output for task 26:.................................................")
+print(text1)
+
+#Task 27 — Limited Replacement
+text = "apple apple apple"
+text1=text.replace("apple","mango",1)
+print("Output for task 27:.................................................")
+print(text1)
+
+#Task 28 — Check Immutability
+text = "Python"
+text.upper()
+print("Output for task 28:.................................................")
+print(text ,"the original string not changed because not store value in variable")
+text=text.upper()
+print(text)
+
+#Part 12 — Whitespace
+#Task 29
+text = "   Python Programming   "
+print("Output for task 29:.................................................")
+print(text.strip())
+print(text.lstrip())
+print(text.rstrip())
+
+#Task 30 — User Input
+user_input=input("Enter your name:")
+print("Output for task 30:.................................................")
+print(user_input.strip())
+
+#Part 13 — Split and Join
+#Task 31 — Split
+string="Python is easy to learn"
+print("Output for task 31:.................................................")
+list=string.split()
+print(list)
+
+#Task 32 — Split with Separato
+string="apple,banana,mango,orange"
+print("Output for task 32:.................................................")
+list=string.split(",")
+print(list)
+
+#Task 33 — Join
+words = ["Python", "is", "easy"]
+print("Output for task 33:.................................................")
+result=" ".join(words)
+print(result)
+
+#Task 34 — Join with Different Separators
+words=["Python","is","easy"]
+print("Output for task 34:.................................................")
+result="-".join(words)
+print(result)
+result="/".join(words)
+print(result)
+
+#Part 14 — String Formatting
+#Task 35 — F-String
+Name="Praveen Prajapati"
+Age=18
+City="Nagaur Rajasthan"
+print("Output for task 35:.................................................")
+sentence=f"My name is {Name} and I am {Age} years old and I am form {City}"
+print(sentence)
+
+#Task 36 — Arithmetic Inside F-String
+a = 10
+b = 20
+print("Output for task 36:.................................................")
+sum=f"{a+b}"
+print(sum)
+
+#Part 15 — Error Identification
+#Task 37
+print("Output for task 37:.................................................")
+#A
+text = "Python"
+print("print(text[20]) this will show IndexError: string index out of range")
+print(text[2])
+
+#B
+text = "Python"
+print("text[0] = 'J' this will show TypeError: 'str' object does not support item assignment")
+print(text[0])
+
+#C
+age = 20
+print("print('Age: ' + age) this will show TypeError: can only concatenate str (not 'int') to str")
+print("Age: " + str(age))
+
+#D
+text = "Python"
+print("print(text.index('Java')) this will show ValueError: substring not found")
+print(text.index("Python"))
+
+#Part 16 — Practical Challenge
+#Task 38 — Name Processor
+print("Output for task 38:.................................................")
+user_fullname=input("Enter your full name:")
+cleaned_name=user_fullname.strip()
+print(user_fullname)
+print(cleaned_name)
+print(user_fullname.upper())
+print(user_fullname.lower())
+print(user_fullname.title())
+length=len(user_fullname)
+print(length)
+print(user_fullname[0])
+print(user_fullname[length-1])
+print("a" in user_fullname)
