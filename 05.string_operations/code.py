@@ -310,3 +310,79 @@ print(length)
 print(user_fullname[0])
 print(user_fullname[length-1])
 print("a" in user_fullname)
+
+#Part 17 — Practical Challenge
+#Task 39 — Sentence Analyzer
+user_sentence=input("Enter your sentence:")
+print("Output for task 39:.................................................")
+print("The original sentence is :",user_sentence.strip())
+length=len(user_sentence)
+print("Number of characters is :",length)
+list=user_sentence.split()
+words=len(list)
+print(words)
+print(user_sentence[-length])
+print(user_sentence[length-1])
+print(user_sentence.upper())
+print(user_sentence.lower())
+print(user_sentence.title())
+print("Python" in user_sentence)
+chiose_char=input("Enter your character to find in sentence:")
+print(user_sentence.count(chiose_char))
+
+#Part 18 — Final Challenge
+#Task 40 — Student Information
+print("Output for task 40:.................................................")
+your_fname=input("Enter your First name:")
+your_lname=input("Enter your Last name:")
+your_city=input("Enter your City:")
+your_course=input("Enter your Course:")
+your_age=(input("Enter your age:"))
+
+#1
+print(your_fname.strip())
+print(your_lname.strip())
+print(your_city.strip())
+print(your_course.strip())
+print(your_age.strip())
+
+#2
+fullname=your_fname+" "+your_lname
+print(fullname)
+
+#3
+print(fullname.title())
+
+#4
+print(fullname.upper())
+
+#5
+print(fullname.lower())
+
+#6
+length=len(fullname)
+print(length)
+
+#7
+print(fullname[-length])
+
+#8
+print(fullname[length-1])
+
+#9
+print(your_city,"and",your_course)
+
+#10
+print(f"my age is {your_age}")
+
+#11
+print("Python" in your_course  or "Python" in your_course.title())
+
+#12
+tyour_course=your_course.title()
+print(tyour_course.replace("Python","Java"))
+
+#13
+list=your_course.split()
+words=len(list)
+print(words)
