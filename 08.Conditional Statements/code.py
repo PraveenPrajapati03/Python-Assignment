@@ -1,4 +1,4 @@
-#Practice Problems
+Practice Problems
 #1
 print("Output for Question 1:.................................................")
 num=15
@@ -200,3 +200,98 @@ if age>=18:
         print("Not Eligible")
 else: 
     print("Not Eligible")                      
+
+#22
+print("Output for Question 22:.................................................")
+num=int(input("Enter number:"))  
+if num<10:
+    print("number is special")
+elif num>100:
+    print("number is special")
+else:
+    print("number is betwwen 10 nad 100")
+
+#23
+print("Output for Question 23:.................................................")
+age=int(input("Enter your age:"))
+has_id=input("Enter id in True and False:").capitalize()
+if age>=18:
+    if has_id=="True":
+        print("Allowed")
+    else:
+        print("id does not match")
+else:
+    print("Not Allowed")           
+
+#24
+print("Output for Question 24:.................................................")
+num1=int(input("Enter first number:"))
+num2=int(input("Enter second number:"))
+if num1>10:
+    if num2>10:
+        print("Both number is greater than 10")
+    else:
+        print("num1 is greater than 10 but num2 is less than 10")
+elif num1<=10:
+    if num2>10:
+        print("num2 is greater than 10 but num1 is less than 10")
+    elif num2<=10:
+        print("both number are less than 10")
+
+#25
+print("Output for Question 25:.................................................")
+num=int(input("Enter number:"))
+if num<=0:
+    if num==0:
+        print("Number exect 0")
+    else:
+        print("Number is less than 0")    
+elif num>=100:
+    if num==100:
+        print("Number exect 100")
+    else:
+        print("Number is greater than 100")            
+else:
+    print("Number is between 1 to 99")
+
+#26
+print("Output for Question 26:.................................................")
+is_closed=False
+if not is_closed:
+    print("Open")
+
+27 
+print("Output for Question 27:.................................................") 
+num=int(input("Enter number:"))
+if num>=10 and num<=50:
+    print("Number is between 10 and 50")
+else:
+    print("Other number")
+
+#28  
+print("Output for Question 28:.................................................") 
+num=int(input("Enter number:"))
+if num<=10 or num>=50:
+    print("Number is Outside 10 and 50")
+else:
+    print("Number is between 10 and 50") 
+
+29
+print("Output for Question 29:.................................................")     
+is_student=True
+has_id=True
+has_ticket=True
+if is_student and has_id and has_ticket:
+    print("Allowed")
+else:
+    print("Not allowed")    
+
+#30
+print("Output for Question 30:.................................................")
+age=int(input("Enter your age:"))
+marks=int(input("Enter your marks"))
+has_id=True
+if age>=18 and marks>=40 and has_id:
+    print("Eligible")
+else:
+    print("Not eligible")    
