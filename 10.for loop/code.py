@@ -178,3 +178,45 @@ for i in word:
         count+=1
 print(count)     
 
+#F. Nested for Loops
+#26
+print("Output for Question 26:.................................................")
+for i in range(3):
+    for j in range(4):
+        print("*",end="")
+    print()    
+
+#27
+print("Output for Question 27:.................................................")
+for i in range(4):
+    for j in range(5):
+        print("*",end="")
+    print() 
+
+#28
+print("Output for Question 28:.................................................")
+for i in range(5):
+    for j in range(i+1):
+        print("*",end="")
+    print() 
+
+#29
+print("Output for Question 29:.................................................")
+for i in range(5):
+    for j in range(i+1):
+        print(j+1,end="")
+    print()
+
+#30
+# print("Output for Question 30:.................................................")
+for i in range(1,6):
+    for j in range(1,6):
+        print(i*j,end="\t")
+    print()    
+
+#Final Practice Challenge
+n=int(input("Enter number:"))
+for i in range(n):
+    for j in range(i+1):
+        print(j+1,end="")
+    print()    
