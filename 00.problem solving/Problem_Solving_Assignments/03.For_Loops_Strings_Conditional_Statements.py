@@ -776,46 +776,89 @@
 
 
 
-#50. Complete Data Analyzer Challenge
-for i in range(10):
-    string=input("Enter paragraph:")
-    ucount=lcount=dcount=scount=sccount=0
-    words=string.split()
-    a=0
-    longest_word=""
-    for j in words:
-        for i in j:
-            if chr(65)<=i<=chr(90):
-                upper_count+=1
-            elif chr(97)<=i<=chr(122):
-                lower_count+=1
-            if i in "AEIOUaeiou":
-                vowel_count+=1
-                score+=2
-            elif "A" <= i <= "Z" or "a" <= i <= "z":
-                consonant_count+=1
-                score+1
-            elif chr(48)<=i<=chr(57):
-                digit_count+=1
-                score+=3  
-            elif i==chr(32):
-                score+=0 
-                space_count+=1   
-            else:
-                score+=4
-                special_count+=1  
-        if len(j)>len(longest_word):
-            longest_word=j                           
-    a=0
-    for i in string:
-        count = 0
-        for j in string:
-            if i==j:
-                count += 1
-        already_printed = False
-        for k in range(a):  
-            if i == string[k]:
-                already_printed = True 
-        a+=1                           
-        if count > 1 and not already_printed:
-            print(i+str(count),end="")            
+# #50. Complete Data Analyzer Challenge
+# upper_count=0
+# lower_count=0
+# vowel_count=0
+# consonant_count=0
+# digit_count=0
+# special_count=0
+# space_count=0
+# highest_score=0
+# highest_score_word=""
+# most_vowel_word=""
+# most_digit_word=""
+# word_vowel_count=0
+# word_digit_count=0
+# for i in range(10):
+#     string=input("Enter paragraph:")
+#     words=string.split()
+#     longest_word=""
+#     score=0
+#     vcount=0
+#     dcount=0
+#     for i in string:
+#         if chr(65)<=i<=chr(90):
+#             upper_count+=1
+#         elif chr(97)<=i<=chr(122):
+#             lower_count+=1
+#         if i in "AEIOUaeiou":
+#             vowel_count+=1
+#             vcount+=1
+#             score+=2
+#         elif "A" <= i <= "Z" or "a" <= i <= "z":
+#             consonant_count+=1
+#             score+=1
+#         elif chr(48)<=i<=chr(57):
+#             digit_count+=1
+#             dcount+=1
+#             score+=3  
+#         elif i==chr(32):
+#             score+=0 
+#             space_count+=1   
+#         else:
+#             score+=4
+#             special_count+=1
+#     for j in words:
+#         for i in j:
+#             if len(j)>len(longest_word):
+#                 longest_word=j    
+#     if score>highest_score:
+#         highest_score=score    
+#         highest_score_word=string  
+#     if vcount > word_vowel_count:
+#         word_vowel_count = vcount
+#         most_vowel_word = string
+#     if word_digit_count<dcount:
+#         word_digit_count=dcount
+#         most_digit_word=string    
+#     a=0
+#     for i in string:
+#         count = 0
+#         for j in string:
+#             if i==j:
+#                 count += 1
+#         already_printed = False
+#         for k in range(a):  
+#             if i == string[k]:
+#                 already_printed = True 
+#         a+=1                           
+#         if count > 1 and not already_printed:
+#             print(f"the {i} character is repeated {count} times")
+# print(f"most score word is {highest_score_word} there score is:{highest_score}")               
+# print(f"most vowel in one string is {most_vowel_word} the number of vowel is:{word_vowel_count}")                         
+# print(f"most digit in one string is {most_digit_word} the number of digit is:{word_digit_count}")                         
+# print("Total number of vowel in all inputs is:",vowel_count)                        
+# print("Total number of consonant in all inputs is:",consonant_count)                        
+# print("Total number of digit in all inputs is:",digit_count)                        
+# print("Total number of specail character in all inputs is:",special_count+space_count)                        
+# text=vowel_count+consonant_count
+# special_character=space_count+special_count
+# if text>special_character and text>digit_count:
+#     print("Text Heavy")
+# elif digit_count>text and digit_count>special_character:
+#     print("Number Heavy")
+# elif special_character>text and special_character>digit_count:
+#     print("Special Character Heavy")    
+# else:
+#     print("Balanced")    
