@@ -1,5 +1,3 @@
----
-
 # Student Answer Sheet
 
 | Question | My Output |
@@ -48,5 +46,3 @@
 | Q42 | |
 | Q43 | |
 | Q44 | |
-
----
