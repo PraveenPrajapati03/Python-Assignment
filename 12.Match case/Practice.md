@@ -2,47 +2,47 @@
 
 | Question | My Output |
 |---|---|
-| Q1 | |
-| Q2 | |
-| Q3 | |
-| Q4 | |
-| Q5 | |
-| Q6 | |
-| Q7 | |
-| Q8 | |
-| Q9 | |
-| Q10 | |
-| Q11 | |
-| Q12 | |
-| Q13 | |
-| Q14 | |
-| Q15 | |
-| Q16 | |
-| Q17 | |
-| Q18 | |
-| Q19 | |
-| Q20 | |
-| Q21 | |
-| Q22 | |
-| Q23 | |
-| Q24 | |
-| Q25 | |
-| Q26 | |
-| Q27 | |
-| Q28 | |
-| Q29 | |
-| Q30 | |
-| Q31 | |
-| Q32 | |
-| Q33 | |
-| Q34 | |
-| Q35 | |
-| Q36 | |
-| Q37 | |
-| Q38 | |
-| Q39 | |
-| Q40 | |
-| Q41 | |
-| Q42 | |
-| Q43 | |
-| Q44 | |
+| Q1 |Add |
+| Q2 |Three |
+| Q3 |Invalid |
+| Q4 |Second |
+| Q5 |Sunday |
+| Q6 |Ten |
+| Q7 |Other |
+| Q8 |Invalid Choice |
+| Q9 |Stop |
+| Q10 |Go |
+| Q11 |Starting |
+| Q12 |Unknown Command |
+| Q13 |Weekday |
+| Q14 |Weekend |
+| Q15 |Even Group |
+| Q16 |Other|
+| Q17 |Delete |
+| Q18 |Invalid Option |
+| Q19 |Weekend or Invalid |
+| Q20 |Second Option |
+| Q21 |E F |
+| Q22 |Courses |
+| Q23 |Marks |
+| Q24 |Students |
+| Q25 |Invalid Student Choice |
+| Q26 |Allowed |
+| Q27 |Not Allowed |
+| Q28 |Exit |
+| Q29 |15 |
+| Q30 |5 |
+| Q31 |50 |
+| Q32 |One |
+| Q33 |String |
+| Q34 |B |
+| Q35 |Go |
+| Q36 |20 |
+| Q37 |Attendance |
+| Q38 |Not Allowed |
+| Q39 |Holiday |
+| Q40 |Pause Video |
+| Q41 |B |
+| Q42 |D |
+| Q43 |Negative |
+| Q44 |Zero |
