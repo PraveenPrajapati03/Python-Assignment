@@ -1,6 +1,5 @@
 # My Answer Sheet
 
-
 | Question | My Output |
 |---|---|
 | Q1 | |
