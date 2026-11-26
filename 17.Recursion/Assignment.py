@@ -151,11 +151,11 @@ def max_digit(n):
     if n == 0:
         return 0
     last_digit = n % 10
-    remaining_max = max_digit(n // 10)
-    if last_digit > remaining_max:
+    r_max = max_digit(n // 10)
+    if last_digit > r_max:
         return last_digit
     else:
-        return remaining_max
+        return r_max
 print(max_digit(4729))
 
 
