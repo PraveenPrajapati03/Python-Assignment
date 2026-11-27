@@ -106,9 +106,9 @@ def binary(n):
     if n <= 1:
         result = n + result * 10
         return result
-    binary(n // 2)
     bn = n % 2
     result = result * 10 + bn
+    binary(n // 2)
     return result
 print(binary(13))
 
